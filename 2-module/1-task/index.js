@@ -7,5 +7,3 @@ function sumSalary(salaries) {
   }
   return sum;
 }
-
-console.log(sum(salaries));

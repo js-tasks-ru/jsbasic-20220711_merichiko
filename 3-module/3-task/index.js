@@ -1,7 +1,8 @@
 function camelize(str) {
   return str
-   .split('-')
-   .map((word, index) => index == 0 ? word : word[0].toUpperCase() + word.slice(1))
-   .join('');
+    .split("-")
+    .map(
+      (val, index) => (index === 0 ? val : val[0].toUpperCase() + val.slice(1))
+    )
+    .join("");
 }
-console.log(camelize(str));
